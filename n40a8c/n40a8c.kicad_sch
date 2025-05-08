@@ -2926,6 +2926,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 85.09) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e34237-04ab-4d78-93c5-f52f393b12ac")
+	)
+	(wire
+		(pts
 			(xy 275.59 148.59) (xy 273.05 148.59)
 		)
 		(stroke
@@ -3073,6 +3083,16 @@
 			(type default)
 		)
 		(uuid "65a90eab-e20a-4fe8-8f9f-0ab5542f4295")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664d1fe3-4c8e-4964-ad9c-5defc9117139")
 	)
 	(wire
 		(pts
@@ -3413,16 +3433,6 @@
 			(type default)
 		)
 		(uuid "9758be70-7df3-45de-9c15-144203e8d4e4")
-	)
-	(wire
-		(pts
-			(xy 139.7 85.09) (xy 139.7 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97cedd0f-7877-4f83-b4e7-98aa86f66829")
 	)
 	(wire
 		(pts
@@ -3946,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 123.19 102.87)
+			(xy 140.97 102.87) (xy 123.19 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4168,7 +4178,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 74.93 185.42 270)
+		(at 73.66 176.53 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4177,7 +4187,7 @@
 		)
 		(uuid "191224ff-921b-42b9-98d2-ba0744073aaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 185.42 0)
+			(at 73.66 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +4658,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 77.47 185.42 270)
+		(at 76.2 176.53 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4657,7 +4667,7 @@
 		)
 		(uuid "93d7215b-cf01-45fe-99f2-f546775f9d2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.47 185.42 0)
+			(at 76.2 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5815,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 139.7 99.06 270)
+		(at 140.97 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5814,7 +5824,7 @@
 		(fields_autoplaced yes)
 		(uuid "080aaa87-0974-4a77-bf63-185495f411a0")
 		(property "Reference" "DS1"
-			(at 142.24 99.0599 90)
+			(at 143.51 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5833,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 137.16 99.06 0)
+			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5842,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 135.255 99.06 0)
+			(at 136.525 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5851,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 139.7 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5860,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 139.7 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5869,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 139.7 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +5878,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 139.7 99.06 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10699,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 77.47 180.34 270)
+		(at 76.2 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10697,7 +10707,7 @@
 		(dnp no)
 		(uuid "83a1b175-c631-45b2-9b66-f49f849a3a0d")
 		(property "Reference" "J2"
-			(at 74.9299 179.07 0)
+			(at 73.6599 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,7 +10716,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 77.4699 179.07 0)
+			(at 76.1999 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10726,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 77.47 180.34 0)
+			(at 76.2 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 180.34 0)
+			(at 76.2 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10744,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 77.47 180.34 0)
+			(at 76.2 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
