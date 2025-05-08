@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cscslib")(type "KiCad")(uri "${KIPRJMOD}/../lib/cscslib.pretty")(options "")(descr ""))
+  (lib (name "OPL")(type "KiCad")(uri "${KIPRJMOD}/../lib/OPL.pretty")(options "")(descr ""))
+)
