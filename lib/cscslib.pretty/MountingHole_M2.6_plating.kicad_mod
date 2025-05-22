@@ -1,4 +1,4 @@
-(footprint "MountingHole_M2_plating"
+(footprint "MountingHole_M2.6_plating"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -53,8 +53,8 @@
 	(attr through_hole)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2.4 2.4)
-		(drill 2.2)
+		(size 3 3)
+		(drill 2.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(clearance 0.8)
