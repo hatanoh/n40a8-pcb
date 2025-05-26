@@ -5774,7 +5774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cscslib:MountingHole_M2.6_plating"
+		(property "Footprint" "cscslib:MountingHole_M3_plating_truss"
 			(at 170.18 25.4 0)
 			(effects
 				(font
@@ -9809,7 +9809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cscslib:MountingHole_M2.6_plating"
+		(property "Footprint" "cscslib:MountingHole_M3_plating_truss"
 			(at 170.18 35.56 0)
 			(effects
 				(font
@@ -9876,7 +9876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cscslib:MountingHole_M2.6_plating"
+		(property "Footprint" "cscslib:MountingHole_M3_plating_truss"
 			(at 170.18 30.48 0)
 			(effects
 				(font
@@ -11109,7 +11109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cscslib:MountingHole_M2.6_plating"
+		(property "Footprint" "cscslib:MountingHole_M3_plating_truss"
 			(at 170.18 40.64 0)
 			(effects
 				(font
