@@ -1,8 +1,9 @@
-(footprint "MountingHole_M2_plating"
+(footprint "MountingHole_M2.6_plating_truss"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "M2.6 Mounting Hole (Spacer 5mm / Flat 5mm / bind 5.3mm / truss 5.9mm)")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.Fab")
@@ -14,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 1.75 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -50,14 +51,15 @@
 			)
 		)
 	)
+	(zone_connect 2)
 	(attr through_hole)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2.4 2.4)
-		(drill 2.2)
+		(size 3 3)
+		(drill 2.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(clearance 0.8)
+		(clearance 1.45)
 		(zone_connect 2)
 		(uuid "c565df0f-dc84-4787-9db0-842ab8651356")
 	)
