@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "cscslib")(type "KiCad")(uri "${KIPRJMOD}/../lib/cscslib.kicad_sym")(options "")(descr ""))
   (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/../lib/OPL_Kicad_Library/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
-  (lib (name "SSAJ120100")(type "KiCad")(uri "C:/Users/hatano/Documents/git/n40a8-pcb/lib/SamacSys/SSAJ120100.kicad_sym")(options "")(descr ""))
 )

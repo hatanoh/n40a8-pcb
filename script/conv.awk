@@ -4,7 +4,7 @@ BEGIN {
 
 	# parts offset
 	offset["CPG151101S11-16"]="-0.635,3.81,0"
-	offset["SSAJ120100"]="0,-0.75,0"
+	offset["SSAJ120100"]="0,-0.65,0"
 	offset["SSAJ110100"]="0,-0.65,0"
 	offset["TPS61221"]="0,0,90"
 
