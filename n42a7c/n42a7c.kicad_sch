@@ -4343,7 +4343,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 43.18 181.61 0)
+		(at 43.18 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4352,7 +4352,7 @@
 		)
 		(uuid "191224ff-921b-42b9-98d2-ba0744073aaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 181.61 90)
+			(at 43.18 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4845,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 43.18 179.07 0)
+		(at 43.18 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4854,7 +4854,7 @@
 		)
 		(uuid "93d7215b-cf01-45fe-99f2-f546775f9d2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 179.07 90)
+			(at 43.18 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +9451,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 38.1 181.61 0)
+		(at 38.1 186.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9460,7 +9460,7 @@
 		(dnp no)
 		(uuid "592ee101-9a57-4ec8-bc64-f105c75ba057")
 		(property "Reference" "J2"
-			(at 38.1 176.53 0)
+			(at 38.1 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9468,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 38.1 187.96 0)
+			(at 38.1 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9477,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
-			(at 38.1 181.61 0)
+			(at 38.1 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 181.61 0)
+			(at 38.1 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9495,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 38.1 181.61 0)
+			(at 38.1 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
