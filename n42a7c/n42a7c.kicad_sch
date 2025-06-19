@@ -152,7 +152,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -168,8 +168,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -194,7 +194,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -221,10 +221,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -258,6 +258,17 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -313,6 +324,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4343,7 +4372,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 43.18 189.23 0)
+		(at 43.18 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4352,7 +4381,7 @@
 		)
 		(uuid "191224ff-921b-42b9-98d2-ba0744073aaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 189.23 90)
+			(at 43.18 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,6 +4828,26 @@
 			)
 		)
 	)
+	(global_label "BAT-"
+		(shape input)
+		(at 43.18 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eaceb0a-c34b-4278-abbd-f3afb22165a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.18 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO 3"
 		(shape bidirectional)
 		(at 95.25 85.09 90)
@@ -4845,7 +4894,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 43.18 186.69 0)
+		(at 43.18 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4854,7 +4903,7 @@
 		)
 		(uuid "93d7215b-cf01-45fe-99f2-f546775f9d2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.18 186.69 90)
+			(at 43.18 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPWR"
+		(property "Value" "THAU13-AB-R"
 			(at 25.4 183.134 0)
 			(effects
 				(font
@@ -9450,7 +9499,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 38.1 186.69 0)
 		(mirror y)
 		(unit 1)
@@ -9476,7 +9525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 38.1 186.69 0)
 			(effects
 				(font
@@ -9494,7 +9543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 186.69 0)
 			(effects
 				(font
@@ -9511,6 +9560,9 @@
 		)
 		(pin "3"
 			(uuid "49b3d921-7a1c-4b67-863b-92705fb4d217")
+		)
+		(pin "4"
+			(uuid "b1de6257-9473-43fb-a982-7ff5136fbd8e")
 		)
 		(instances
 			(project ""
@@ -12596,9 +12648,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "b7acd460-8075-47ba-a57c-34859c801480")
 		(property "Reference" "SW_HPWR2"
 			(at 62.23 179.07 0)
@@ -12617,7 +12669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cscslib:SSAJ110100"
+		(property "Footprint" "cscslib:SK-12D11"
 			(at 62.23 184.15 0)
 			(effects
 				(font
@@ -13906,7 +13958,7 @@
 				)
 			)
 		)
-		(property "Value" "SSAJ110100"
+		(property "Value" "SK-12D11"
 			(at 62.23 175.26 0)
 			(effects
 				(font
@@ -13915,7 +13967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cscslib:SSAJ110100"
+		(property "Footprint" "cscslib:SK-12D11"
 			(at 62.23 170.18 0)
 			(effects
 				(font
