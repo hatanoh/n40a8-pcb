@@ -536,7 +536,17 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "BAT+": [
+        "Power"
+      ],
+      "BAT-": [
+        "Power"
+      ],
+      "Net-(J1-Pin_1)": [
+        "Power"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",

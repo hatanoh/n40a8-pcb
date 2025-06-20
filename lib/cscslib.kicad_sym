@@ -2988,7 +2988,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SSAJ1x0100"
+	(symbol "SPDT-NC"
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -2997,14 +2997,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 1.778 4.826 0)
+			(at 0 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SSAJ110100"
+		(property "Value" "SPDT-NC"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ALPS SSAJ110100/120100"
+		(property "Description" "Switch, single pole double throw (SPDT) with NC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3049,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SSAJ1x0100_0_1"
+		(symbol "SPDT-NC_0_1"
 			(circle
 				(center -2.032 0)
 				(radius 0.4572)
@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(symbol "SSAJ1x0100_1_1"
+		(symbol "SPDT-NC_1_1"
 			(rectangle
 				(start -3.175 3.81)
 				(end 3.175 -3.81)
@@ -3127,7 +3127,7 @@
 				)
 			)
 			(pin free line
-				(at 0 6.35 270)
+				(at 0 -6.35 90)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -3166,6 +3166,172 @@
 				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SPST-NC"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 4.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SPST-NC"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole single throw (SPST) with NC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch single-pole single-throw spst"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SPST-NC_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SPST-NC_1_1"
+			(rectangle
+				(start -3.175 3.81)
+				(end 3.175 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 0 -6.35 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
