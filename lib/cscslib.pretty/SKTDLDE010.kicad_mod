@@ -1,0 +1,256 @@
+(footprint "SKTDLDE010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.9×2.9mm Side Push Type (Surface Mount) SKTD Series")
+	(tags "switch, SPST, side push, low height, SMD")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b57f2b5d-c7fd-4ae2-9891-c343f12bd681")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SKTDLDE010"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d3e1d92-643d-4e5a-a141-dd1ba4f9bef8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://tech.alpsalpine.com/j/products/detail/SKTDLDE010/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59fb7b0a-ac41-4033-b9fd-21b7b4c8dc5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3.9×2.9mm Side Push Type (Surface Mount) SKTD Series Water-proof Type "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f0a7681-cd9a-4b1d-9c6f-e6a2dc3b3e96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.95 1.4)
+		(end -1.95 0.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ac1c3a2-260d-4ada-ba8f-6de303337d17")
+	)
+	(fp_line
+		(start -1.95 1.4)
+		(end -1.875 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4bef44c0-fc40-40ee-a9f2-fb55474c882b")
+	)
+	(fp_line
+		(start -1.025 -0.55)
+		(end 1.025 -0.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da25fd60-6e86-412c-a565-4fb5d9223b70")
+	)
+	(fp_line
+		(start -0.925 1.4)
+		(end -0.825 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "396f0062-4694-4777-bc9c-24846e4f421f")
+	)
+	(fp_line
+		(start 0.825 1.4)
+		(end 0.925 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d25be3fd-6ce3-474d-b059-93480649ee0c")
+	)
+	(fp_line
+		(start 1.875 1.4)
+		(end 1.95 1.4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ca33294-6c76-4bbc-9a0f-b6ea2dbac251")
+	)
+	(fp_line
+		(start 1.95 1.4)
+		(end 1.95 0.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f710e798-251f-42eb-8b9e-61e663efe510")
+	)
+	(fp_line
+		(start -0.75 -1.55)
+		(end 0.75 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "51d5049b-61d4-4664-b554-360e6be1c506")
+	)
+	(fp_line
+		(start -0.75 -0.55)
+		(end -0.75 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "38e96767-934e-4698-bd93-90655d07fdcd")
+	)
+	(fp_line
+		(start 0.75 -0.55)
+		(end 0.75 -1.55)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c85f4e55-edd5-4351-a0a0-9fe2f4eb0a6f")
+	)
+	(fp_rect
+		(start -2.35 -1)
+		(end 2.35 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "125f46a9-fbad-4488-9d73-778a65ffb2eb")
+	)
+	(pad "1" smd rect
+		(at 1.4 1.35)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e4489c09-7656-4776-97d6-fc3681c778a5")
+	)
+	(pad "2" smd rect
+		(at -1.4 1.35)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "f57b931d-b251-4a3d-b50a-19193ed885ac")
+	)
+	(pad "NC" smd rect
+		(at -2.075 0.0625)
+		(size 0.45 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9a483e7a-f79f-4df8-9c73-9b35ecfd7e7f")
+	)
+	(pad "NC" thru_hole circle
+		(at -1.85 0)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39980453-7002-4339-9247-28cb4f276e61")
+	)
+	(pad "NC" smd rect
+		(at -1.725 -0.6125)
+		(size 1.15 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e7db4c6-9e69-42a5-bd94-52272a0055ed")
+	)
+	(pad "NC" smd rect
+		(at -1.65 -0.1375)
+		(size 0.4 0.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf5b9db5-e9f0-49be-af42-0ffe11786225")
+	)
+	(pad "NC" smd rect
+		(at 0 1.5)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "95a7798a-4bec-4033-a180-f870aca9a2ff")
+	)
+	(pad "NC" smd rect
+		(at 1.65 -0.1375)
+		(size 0.4 0.275)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81d74f90-99d5-4bb4-a0ad-c3e496f1e1c7")
+	)
+	(pad "NC" smd rect
+		(at 1.725 -0.6125)
+		(size 1.15 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "76d5c139-2e9e-4cad-a513-b0a0d9b27cfa")
+	)
+	(pad "NC" thru_hole circle
+		(at 1.85 0)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f6846c6-f14d-46f3-8030-3e3163bbfa59")
+	)
+	(pad "NC" smd rect
+		(at 2.075 0.0625)
+		(size 0.45 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a586faac-8925-44cf-ada1-a1453c2710a8")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/hatano/git/n40a8-pcb/lib/cscslib.pretty/3dshapes/SKTDLDE010.stp"
+		(offset
+			(xyz 0 -1.35 0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -8,6 +8,9 @@ BEGIN {
 	offset["SSAJ110100"]="0,-0.65,0"
 	offset["TPS61221"]="0,0,90"
 
+	offset["SSSS811101"]="0,-0.45,0"
+	offset["SKTDLDE010"]="0,0.75,0"
+	
 	# header
 	print "Designator,Mid X,Mid Y,Rotation,Layer"
 }

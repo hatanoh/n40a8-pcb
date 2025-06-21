@@ -1,0 +1,242 @@
+(footprint "SSSS811101"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1.4 (H) mm, 1.5/2.0mm-travel Surface Mount Type SSSS8 Series SSSS811101 /  SSSS810701")
+	(tags "switch, SPDT, right angle, SMD")
+	(property "Reference" "REF**"
+		(at 0 -3.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e0da62ec-730f-48c2-abf1-c689fae5904a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SSSS811101"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "289c7d75-2d80-4af8-9abc-cbdddb9e3a10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SSSS811101/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4957f9c9-aea7-4ccd-9d4a-f2d04218e32f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " 1.4 (H) mm, 1.5/2.0mm-travel Surface Mount Type SSSS8 Series"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93c81dd7-16f2-4e29-abce-ab55c78c1c6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.35 -0.575)
+		(end -3.35 0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb95a61e-99df-47de-a46e-630d02a233c1")
+	)
+	(fp_line
+		(start -3.025 -1.3)
+		(end -2.725 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3067187-f93d-460b-9832-29a20b370cdc")
+	)
+	(fp_line
+		(start -3.025 1.3)
+		(end 3.025 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a061a90d-a35c-4ebc-b05a-621cc73ae45e")
+	)
+	(fp_line
+		(start -1.775 -1.3)
+		(end 0.275 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce34d93f-dfc9-4c70-b5a1-ad8d7e9098a1")
+	)
+	(fp_line
+		(start 1.225 -1.3)
+		(end 1.775 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3edf2df9-5cbc-4ce8-85f3-3c9f5f41cae8")
+	)
+	(fp_line
+		(start 2.725 -1.3)
+		(end 3.025 -1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e874ec58-423f-4f43-a56d-1c60bf170f9f")
+	)
+	(fp_line
+		(start 3.35 -0.575)
+		(end 3.35 0.575)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f79c66a-1e89-45d6-a6b9-2b875178d308")
+	)
+	(fp_line
+		(start -1.4 2.8)
+		(end -1.4 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b8cba01f-00dc-4c6d-b1dc-be8b697cee0a")
+	)
+	(fp_line
+		(start -1.4 2.8)
+		(end 1.4 2.8)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "fcf758e2-af02-4542-813c-fa2e78641aa8")
+	)
+	(fp_line
+		(start 1.4 2.8)
+		(end 1.4 1.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "c7424026-be03-452e-a67b-e480c5ff9ee3")
+	)
+	(fp_rect
+		(start -4.2 -2.55)
+		(end 4.2 1.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "77541a9b-bd59-4660-b5f5-7a21bec0c56d")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.5 0)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c4897de3-8aaa-4156-945c-27bb664e7431")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.5 0)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a779c948-25de-483f-a529-11bea7d0539e")
+	)
+	(pad "1" smd rect
+		(at 2.25 -1.75)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "881610a0-e100-4b91-96b0-ed971e979d16")
+	)
+	(pad "2" smd rect
+		(at -2.25 -1.75)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e4f40983-175d-4d54-8137-39e2aeb40eb1")
+	)
+	(pad "C" smd rect
+		(at 0.75 -1.75)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "b2b11c25-6b22-4364-b00c-a41b0c7083ef")
+	)
+	(pad "NC" smd rect
+		(at -3.65 -1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f4c9382-0943-46d4-9287-8956cc0e2418")
+	)
+	(pad "NC" smd rect
+		(at -3.65 1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b57f4519-6473-412a-a69d-c699dc234b4d")
+	)
+	(pad "NC" smd rect
+		(at 3.65 -1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d319169-a14f-462b-a7e8-77d2cb259c7b")
+	)
+	(pad "NC" smd rect
+		(at 3.65 1.1)
+		(size 1 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f29f7f5c-ecfd-4b84-9de7-2b1549e0a4e0")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/hatano/git/n40a8-pcb/lib/cscslib.pretty/3dshapes/SSSS811101.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
