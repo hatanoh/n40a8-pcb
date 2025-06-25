@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.4,
-          "width": 1.5
+          "drill": 0.6,
+          "height": 0.8,
+          "width": 0.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -519,17 +519,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "BAT+": [
-        "Power"
-      ],
-      "BAT-": [
-        "Power"
-      ],
-      "Net-(J1-Pin_1)": [
-        "Power"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
