@@ -464,4 +464,15 @@
 		(uuid "45226876-ba6d-4467-97df-cc7dbac5da5a")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/cscslib.pretty/3dshapes/PG151101S11.stp"
+		(offset
+			(xyz -0.635 -3.81 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

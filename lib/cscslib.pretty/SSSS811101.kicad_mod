@@ -228,7 +228,7 @@
 		(uuid "f29f7f5c-ecfd-4b84-9de7-2b1549e0a4e0")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/hatano/git/n40a8-pcb/lib/cscslib.pretty/3dshapes/SSSS811101.stp"
+	(model "${KIPRJMOD}/../lib/cscslib.pretty/3dshapes/SSSS811101.stp"
 		(offset
 			(xyz 0 0 0)
 		)
