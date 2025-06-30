@@ -4374,7 +4374,7 @@
 	)
 	(global_label "PWR"
 		(shape input)
-		(at 68.58 44.45 0)
+		(at 68.58 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4384,7 +4384,7 @@
 		)
 		(uuid "124345d0-4ac5-4827-8747-4718ca2558cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.9024 44.45 0)
+			(at 74.9024 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 	)
 	(global_label "Fn"
 		(shape input)
-		(at 68.58 48.26 0)
+		(at 68.58 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4908,7 +4908,7 @@
 		)
 		(uuid "8bc044d2-d622-4089-9971-fe93f0444679")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.1486 48.26 0)
+			(at 73.1486 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
