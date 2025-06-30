@@ -2025,6 +2025,12 @@
 		(uuid "15995e44-3c42-4205-9824-f00e176fc811")
 	)
 	(junction
+		(at 63.5 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ae49bd-001a-4446-b71a-e705bf61e664")
+	)
+	(junction
 		(at 237.49 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2227,6 +2233,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eb4e1ad-5cc4-48ef-8f6d-2cae13246c52")
+	)
+	(junction
+		(at 62.23 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72490eeb-e1a4-4a40-ba79-9eff49a65c7f")
 	)
 	(junction
 		(at 229.87 120.65)
@@ -3664,6 +3676,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 171.45) (xy 64.77 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f004598-a10f-43a7-8fc6-21f9840b038f")
+	)
+	(wire
+		(pts
 			(xy 219.71 85.09) (xy 219.71 95.25)
 		)
 		(stroke
@@ -3781,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "ad7351a7-085a-4ace-afe1-e54bbdbfc79d")
+	)
+	(wire
+		(pts
+			(xy 63.5 168.91) (xy 64.77 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16a43f9-7abc-4cb5-bf5e-8e7576cc7513")
 	)
 	(wire
 		(pts
@@ -14725,6 +14757,74 @@
 			(project "n40a8"
 				(path "/c261125e-4de6-4ce6-97c8-cc9869147583"
 					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 69.85 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc4247df-d959-43ab-91f9-470c6ab3fff1")
+		(property "Reference" "J4"
+			(at 69.85 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S2B-PH-SM4-TB"
+			(at 69.85 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bf3b5bc-a25e-421d-afcb-cb9831d1c4e1")
+		)
+		(pin "1"
+			(uuid "fd181e27-b1cf-4ef0-b318-2d1f48e04f68")
+		)
+		(instances
+			(project "n42a7c"
+				(path "/c261125e-4de6-4ce6-97c8-cc9869147583"
+					(reference "J4")
 					(unit 1)
 				)
 			)
