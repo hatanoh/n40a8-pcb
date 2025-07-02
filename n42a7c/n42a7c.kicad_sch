@@ -6462,7 +6462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10d03475-44fc-4200-bdac-2c3522ee4b86")
-		(property "Reference" "SW_DR1"
+		(property "Reference" "SW_D1"
 			(at 24.13 166.37 0)
 			(effects
 				(font
@@ -6518,7 +6518,7 @@
 		(instances
 			(project "n40a8c"
 				(path "/c261125e-4de6-4ce6-97c8-cc9869147583"
-					(reference "SW_DR1")
+					(reference "SW_D1")
 					(unit 1)
 				)
 			)
@@ -10190,7 +10190,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "6f0bcaf4-f668-42dd-84eb-4c1f8a0f4528")
 		(property "Reference" "J2"
@@ -10201,7 +10201,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 55.88 182.88 0)
 			(effects
 				(font
@@ -10730,7 +10730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "790dffa9-ec0e-4314-a7d7-cd7da284b4ca")
-		(property "Reference" "SW_DR2"
+		(property "Reference" "SW_D2"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -10786,7 +10786,7 @@
 		(instances
 			(project "n42a7c"
 				(path "/c261125e-4de6-4ce6-97c8-cc9869147583"
-					(reference "SW_DR2")
+					(reference "SW_D2")
 					(unit 1)
 				)
 			)
@@ -13089,7 +13089,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "c2818144-4763-48e2-9fa2-559889e5b07a")
 		(property "Reference" "J3"
@@ -13100,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 55.88 190.5 0)
 			(effects
 				(font
@@ -14138,7 +14138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e198660b-1220-4df8-b3b0-d4cabcbd6600")
-		(property "Reference" "SW_HPWR1"
+		(property "Reference" "SW_PWR1"
 			(at 80.01 170.18 0)
 			(effects
 				(font
@@ -14197,7 +14197,7 @@
 		(instances
 			(project ""
 				(path "/c261125e-4de6-4ce6-97c8-cc9869147583"
-					(reference "SW_HPWR1")
+					(reference "SW_PWR1")
 					(unit 1)
 				)
 			)
