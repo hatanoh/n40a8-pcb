@@ -10201,7 +10201,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 55.88 182.88 0)
 			(effects
 				(font
@@ -13100,7 +13100,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 55.88 190.5 0)
 			(effects
 				(font
@@ -14779,7 +14779,7 @@
 				)
 			)
 		)
-		(property "Value" "S2B-PH-SM4-TB"
+		(property "Value" "S2B-PH-K"
 			(at 69.85 175.26 0)
 			(effects
 				(font
