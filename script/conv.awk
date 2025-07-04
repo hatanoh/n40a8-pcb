@@ -10,6 +10,7 @@ BEGIN {
 
 	offset["SSSS811101"]="0,-0.45,0"
 	offset["SKTDLDE010"]="0,0.75,0"
+	offset["S2B-PH-K"]="1,0,180"
 	
 	# header
 	print "Designator,Mid X,Mid Y,Rotation,Layer"

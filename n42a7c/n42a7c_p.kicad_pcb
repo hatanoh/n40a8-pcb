@@ -926,7 +926,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "93e19054-ad95-4cfe-a920-c6b8832d0dfd")
+			(uuid "5cf6877e-196c-4f52-a82a-b12785d28b1a")
 		)
 		(pad "2" smd roundrect
 			(at -8.455 -5.08 180)
@@ -970,7 +970,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "4216c494-9c55-4313-a9f8-894952d351a7")
+			(uuid "3d9551aa-44ef-4a12-80b2-7773a7f7fa20")
 		)
 		(pad "3" smd roundrect
 			(at -8.455 -2.54 180)
@@ -1014,7 +1014,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "32795583-c729-42d1-9938-1632bfe73ad9")
+			(uuid "5a4049cf-b656-4eda-b588-d560669cbed7")
 		)
 		(pad "4" smd roundrect
 			(at -8.455 0 180)
@@ -1058,7 +1058,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "69fbe3b1-57ea-4d98-9a6a-503ce9cd78e1")
+			(uuid "a94d008e-838f-482e-9549-6c9fb83f800d")
 		)
 		(pad "5" smd roundrect
 			(at -8.455 2.54 180)
@@ -1102,7 +1102,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "01790f3c-c7d1-4a66-a9f7-af4157fb8eea")
+			(uuid "ca67ee29-b1e6-4f5d-aa71-7fa4df86a64c")
 		)
 		(pad "6" smd roundrect
 			(at -8.455 5.08 180)
@@ -1146,7 +1146,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "523042bb-0d54-43d1-a07c-c7e122f0b6d3")
+			(uuid "6b260d61-6058-41b9-a8f9-8b5279378f70")
 		)
 		(pad "7" smd roundrect
 			(at -8.455 7.62 180)
@@ -1190,7 +1190,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "2bd30fcf-ea78-48b6-9baf-7243e85a6c1f")
+			(uuid "67e103a1-ca4b-432c-86a3-4d510d1aefee")
 		)
 		(pad "8" thru_hole oval
 			(at 7.62 7.62)
@@ -1234,7 +1234,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "ff377d77-dd29-4fea-b220-1832af8adeb3")
+			(uuid "c9bf68e2-16c8-4556-b468-5b39ad5e23a9")
 		)
 		(pad "9" thru_hole oval
 			(at 7.62 5.08)
@@ -1278,7 +1278,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "265ea0de-239b-49da-aa15-4e6bcca959e3")
+			(uuid "e4310bf3-9f63-4896-b22f-b3adb2ab169e")
 		)
 		(pad "10" thru_hole oval
 			(at 7.62 2.54)
@@ -1322,7 +1322,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "1cd3b354-4576-4094-80a4-949b67882a24")
+			(uuid "96ef0c25-d595-4421-937e-c9adb1e8a301")
 		)
 		(pad "11" thru_hole oval
 			(at 7.62 0)
@@ -1366,7 +1366,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "8b89b17a-ceec-401f-9b8f-b79888b8595e")
+			(uuid "9784cfbb-56a9-4fb4-b169-7e8d914f3d48")
 		)
 		(pad "12" thru_hole oval
 			(at 7.62 -2.54)
@@ -1410,7 +1410,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "f6d6f983-c33b-4ac7-a502-352a1280c878")
+			(uuid "a8dc55b6-b56e-4c99-bffd-60bef54b144a")
 		)
 		(pad "13" thru_hole oval
 			(at 7.62 -5.08)
@@ -1454,7 +1454,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "40fb1807-9d7a-4688-a7eb-8245188cea89")
+			(uuid "826daebe-7eab-4d62-a867-a4396a51b0d6")
 		)
 		(pad "14" thru_hole oval
 			(at 7.62 -7.62)
@@ -1498,7 +1498,7 @@
 				(allow_two_segments yes)
 				(prefer_zone_connections no)
 			)
-			(uuid "9f0d1874-b117-446f-98ac-20a1ad66f1e5")
+			(uuid "055e7acf-d7a9-49b9-9030-501e75396b8e")
 		)
 		(pad "15" thru_hole rect
 			(at -4.445 -2.222)
